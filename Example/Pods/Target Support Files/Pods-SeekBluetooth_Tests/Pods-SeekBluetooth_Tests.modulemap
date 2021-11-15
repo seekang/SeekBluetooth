@@ -1,0 +1,6 @@
+framework module Pods_SeekBluetooth_Tests {
+  umbrella header "Pods-SeekBluetooth_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

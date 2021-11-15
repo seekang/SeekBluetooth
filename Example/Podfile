@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SeekBluetooth_Tests' do
+  pod 'SeekBluetooth', :path => '../'
+  
+  
+end
