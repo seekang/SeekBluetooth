@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0C0232B55586D3AE5AAD00099834ACDB /* SeekBluetooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SeekBluetooth.modulemap; sourceTree = "<group>"; };
-		126DFE88765C621AC7A957B373D3387E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		16F0BB94880A3B1F8490EE8073CD4F69 /* SeekBluetooth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SeekBluetooth.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		126DFE88765C621AC7A957B373D3387E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		16F0BB94880A3B1F8490EE8073CD4F69 /* SeekBluetooth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SeekBluetooth.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		171B5C9DBD23745C1BF1071A564EF019 /* Pods-SeekBluetooth_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeekBluetooth_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1BC6153E1FE600430AE4F347A8F5E9B9 /* Pods-SeekBluetooth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeekBluetooth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4573639DE9F864E00FE0B7756D0C319D /* SeekBluetooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SeekBluetooth.debug.xcconfig; sourceTree = "<group>"; };
@@ -38,8 +38,8 @@
 		5FB858B63F21145A06FCAC1F9BEEFF26 /* SeekBluetooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SeekBluetooth-umbrella.h"; sourceTree = "<group>"; };
 		66FE0349BE37777AECDEB822FC4992FE /* Pods-SeekBluetooth_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SeekBluetooth_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8A8A6558184FB4A0F9002B49C1050E5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A8A6558184FB4A0F9002B49C1050E5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A67B35B3F2CB786C7FAF59AA5293DB04 /* Pods-SeekBluetooth_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SeekBluetooth_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B388CF84834E9A2F8CCAB079F9294E14 /* BabyBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyBluetooth.h; path = SeekBluetooth/Classes/BabyBluetooth.h; sourceTree = "<group>"; };
 		B4B388106F22C23B0A57AA220828A1A4 /* BabyBluetooth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyBluetooth.m; path = SeekBluetooth/Classes/BabyBluetooth.m; sourceTree = "<group>"; };
@@ -371,8 +371,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
